@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<script>-->
+<!--    let C = Number(prompt("do C"));-->
+<!--    let F = C * 9/5 +32;-->
+<!--    document.write(F);-->
+<!--</script>-->
+//bt2
+<script>
+    let M = Number(prompt("met"));
+    let ft = M * 3.2808;
+    document.write(ft);
+</script>
+//bt3 tinh dien tich hinh vuong khi biet canh a
+<script>
+    let a = Number(prompt("canh hing vuong"));
+    let S = a*a;
+    document.write("dien tich hinh vuong la" + S);
+</script>
+//bt4 tinh dien tich hinh chu nhat
+<script>
+    let a = Number(prompt("canh a"));
+    let b = Number(prompt("canh b"));
+    let S = a*b;
+    document.write("dien tich hinh chu nhat la" + S);
+</script>
+//bt5 tinh dien tich tich tam giac vuong
+<script>
+    let a = Number(prompt("canh 1"));
+    let b = Number(prompt("canh 2"));
+    let S = (a*b)/2;
+    document.write(S);
+</script>
+//bt6 giai pt bac 1
+<script>
+    let a = Number(prompt("gia ti 1"));
+    let b = Number(prompt("gia tri 2"));
+    let c = Number(prompt("gia tri 3"));
+    if(a==0) {
+        if ( b == 0 && c == 0) {
+            alert("vo nghiem");
+        } else if ( b == 0 && c !== 0) {
+            alert("vo nghiem");
+        } else if (b !== 0 && c == 0) {
+            alert("nghiem bang 0");
+        } else if (b !== 0 && c !== 0) {
+            alert("nghiem la" + -c / b);
+        }
+        if (a !== 0) {
+        } else if (b*b-4*a*c<0) {
+            alert("vo nghiem")
+        }else if(b*b - 4*a*c==0){
+            alert("nghiem kep");
+        }else if(b*b-4*a*c>0){
+            alert("pt co 2 nghiem phan biet");
+        }
+
+    }
+</script>
+</body>
+</html>
